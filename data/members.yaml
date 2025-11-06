@@ -2,14 +2,4 @@
   role: 负责人 / PI
   email: jinbo@example.com
   image: /images/team/jinbo.jpg
-  bio: 简介：2019年硕士毕业于华中农业大学，2024年博士毕业于苏黎世联邦理工大学。
-- name: 
-  role: 博士后
-  email: @example.com
-  image: /images/team/zhangsan.jpg
-  bio: 
-- name: 
-  role: 博士生
-  email: @example.com
-  image: /images/team/lisi.jpg
-  bio: 
+  bio: 简介：2019年硕士毕业于华中农业大学，2024年博士毕业于苏黎世联邦理工大学。 
