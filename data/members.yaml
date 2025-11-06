@@ -1,8 +1,8 @@
-- name: 黄锦波
+- name: 黄金波
   role: 负责人 / PI
   email: jinbo@example.com
   image: /images/team/jinbo.jpg
-  bio: 专注于神经影像与计算神经科学的交叉研究。
+  bio: 简介：2019年硕士毕业于华中农业大学，2024年博士毕业于苏黎世联邦理工大学。
 - name: 张三
   role: 博士后
   email: zhangsan@example.com
