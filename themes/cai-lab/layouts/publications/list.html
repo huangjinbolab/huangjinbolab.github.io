@@ -1,0 +1,19 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div class="content">{{ .Content }}</div>
+<div class="pubs">
+  {{ range site.Data.publications }}
+    <h2>{{ .year }}</h2>
+    <ol>
+      {{ range .items }}
+        <li>
+          <span class="title">{{ .title }}</span><br/>
+          <span class="authors">{{ .authors }}</span><br/>
+          <span class="venue">{{ .venue }}</span>
+          {{ with .link }} - <a href="{{ . }}" target="_blank" rel="noopener">链接</a>{{ end }}
+        </li>
+      {{ end }}
+    </ol>
+  {{ end }}
+</div>
+{{ end }}

@@ -1,0 +1,16 @@
+- year: 2025
+  items:
+    - title: Deep representation learning for fMRI connectivity
+      authors: Zhang S., Li S., Huang J.*
+      venue: NeuroImage, 2025
+      link: https://doi.org/10.xxxx/abc123
+    - title: Explainable Graph Models for Brain Networks
+      authors: Li S., Zhang S., Huang J.*
+      venue: NeurIPS, 2025
+      link: https://arxiv.org/abs/2501.00001
+- year: 2024
+  items:
+    - title: Multimodal neuroimaging fusion with transformers
+      authors: Wang W., Chen C., Huang J.*
+      venue: IEEE TMI, 2024
+      link: https://doi.org/10.xxxx/def456

@@ -1,0 +1,48 @@
+baseURL = "https://huangjinbolab.github.io/"
+languageCode = "zh-cn"
+title = "黄锦波实验室"
+theme = "cai-lab"
+[pagination]
+  pagerSize = 10
+
+[params]
+  lab_name = "黄锦波实验室"
+  tagline = "神经影像 · 计算神经科学 · 人工智能"
+  email = "contact@example.com"
+  address = "某大学 · 某楼"
+  footer_text = "© 2025 黄锦波实验室"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "主页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "研究"
+    url = "/research/"
+    weight = 2
+  [[menu.main]]
+    name = "团队"
+    url = "/team/"
+    weight = 3
+  [[menu.main]]
+    name = "论文"
+    url = "/publications/"
+    weight = 4
+  [[menu.main]]
+    name = "新闻"
+    url = "/news/"
+    weight = 5
+  [[menu.main]]
+    name = "招聘"
+    url = "/jobs/"
+    weight = 6
+  [[menu.main]]
+    name = "其他"
+    url = "/misc/"
+    weight = 7

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div class="content">{{ .Content }}</div>
+<div class="team-grid">
+  {{ range site.Data.members }}
+    <div class="member">
+      <img src="{{ .image }}" alt="{{ .name }}" />
+      <div class="info">
+        <h3>{{ .name }}</h3>
+        <p class="role">{{ .role }}</p>
+        <p class="bio">{{ .bio }}</p>
+        <p class="email"><a href="mailto:{{ .email }}">{{ .email }}</a></p>
+      </div>
+    </div>
+  {{ end }}
+</div>
+{{ end }}
