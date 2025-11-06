@@ -3,13 +3,13 @@
   email: jinbo@example.com
   image: /images/team/jinbo.jpg
   bio: 简介：2019年硕士毕业于华中农业大学，2024年博士毕业于苏黎世联邦理工大学。
-- name: 张三
+- name: 
   role: 博士后
-  email: zhangsan@example.com
+  email: @example.com
   image: /images/team/zhangsan.jpg
-  bio: 研究脑网络建模与可解释人工智能。
-- name: 李四
+  bio: 
+- name: 
   role: 博士生
-  email: lisi@example.com
+  email: @example.com
   image: /images/team/lisi.jpg
-  bio: 研究临床影像数据与疾病预测。
+  bio: 
