@@ -1,15 +1,15 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 <div class="content">{{ .Content }}</div>
-<div class="team-grid">
+<div class="team-section">
   {{ range site.Data.members }}
-    <div class="member">
-      <img src="{{ .image }}" alt="{{ .name }}" />
-      <div class="info">
-        <h3>{{ .name }}</h3>
-        <p class="role">{{ .role }}</p>
-        <p class="bio">{{ .bio }}</p>
-        <p class="email"><a href="mailto:{{ .email }}">{{ .email }}</a></p>
+    <div class="team-member">
+      <div class="member-photo">
+        <img src="{{ .image }}" alt="{{ .name }}" />
+      </div>
+      <div class="member-info">
+        <h2 class="member-name">{{ .name }}{{ if .role }}&nbsp;&nbsp;<span class="member-title">{{ .role }}</span>{{ end }}</h2>
+        <div class="member-bio">{{ .bio | markdownify }}</div>
       </div>
     </div>
   {{ end }}

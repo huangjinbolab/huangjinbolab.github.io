@@ -20,11 +20,18 @@ h1, h2, h3 { margin: 0 0 12px; }
 .hero img { width: 100%; border-radius: 10px; border: 1px solid var(--border); }
 .post-list { padding-left: 20px; }
 .post-list .date { color: var(--muted); margin-left: 8px; font-size: 12px; }
-.team-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
-.member { border: 1px solid var(--border); border-radius: 10px; padding: 12px; display: flex; gap: 12px; background: #fafafa; }
-.member img { width: 80px; height: 80px; object-fit: cover; border-radius: 8px; border: 1px solid var(--border); }
-.member .role { color: var(--primary); font-weight: 600; }
-.member .bio, .member .email { color: var(--muted); font-size: 14px; }
+.team-section { margin-top: 24px; }
+.team-member { display: flex; gap: 24px; margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+.team-member:last-child { border-bottom: none; }
+.member-photo { flex-shrink: 0; }
+.member-photo img { width: 150px; height: 150px; object-fit: cover; border-radius: 4px; border: 1px solid var(--border); }
+.member-info { flex: 1; }
+.member-name { font-size: 1.5em; font-weight: 700; margin: 0 0 12px 0; color: var(--fg); }
+.member-title { font-size: 1em; font-weight: 500; color: #666666; }
+.member-bio { color: var(--fg); line-height: 1.8; margin-bottom: 12px; }
+.member-bio ul { list-style: none; padding-left: 0; margin: 8px 0; }
+.member-bio li { margin-bottom: 8px; }
+.member-bio li::before { content: ""; }
 .pubs h2 { margin-top: 32px; margin-bottom: 16px; border-bottom: 2px solid var(--border); padding-bottom: 8px; font-size: 1.5em; }
 .pub-list { list-style: none; padding-left: 0; counter-reset: pub-counter; }
 .pub-item { counter-increment: pub-counter; margin-bottom: 28px; padding: 0; }
