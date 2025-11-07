@@ -7,7 +7,7 @@ theme = "cai-lab"
 
 [params]
   lab_name = "黄金波实验室"
-  tagline = "神经影像 · 计算神经科学 · 人工智能"
+  tagline = "合成生物学 · 细胞治疗 · 精准医疗"
   email = "huangjinbolab@outlook.com"
   address = "中国科学院杭州医学研究所"
   footer_text = "© 2025 黄金波实验室"

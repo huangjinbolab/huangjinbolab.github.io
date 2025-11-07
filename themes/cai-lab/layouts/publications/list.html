@@ -4,13 +4,16 @@
 <div class="pubs">
   {{ range site.Data.publications }}
     <h2>{{ .year }}</h2>
-    <ol>
+    <ol class="pub-list">
       {{ range .items }}
-        <li>
-          <span class="title">{{ .title }}</span><br/>
-          <span class="authors">{{ .authors }}</span><br/>
-          <span class="venue">{{ .venue }}</span>
-          {{ with .link }} - <a href="{{ . }}" target="_blank" rel="noopener">链接</a>{{ end }}
+        <li class="pub-item">
+          <div class="pub-content">
+            {{ $venueParts := split .venue "," }}
+            {{ $journalName := index $venueParts 0 }}
+            <div class="pub-venue-name">{{ $journalName }}</div>
+            <div class="pub-title">{{ .title }}{{ with .link }} <a href="{{ . }}" target="_blank" rel="noopener" class="pub-link">[PDF]</a>{{ end }}</div>
+            <div class="pub-authors">{{ replace (replace (replace .authors "Huang, J.#" "<strong>Huang, J.#</strong>") "Huang, J.*" "<strong>Huang, J.*</strong>") "Huang, J." "<strong>Huang, J.</strong>" | safeHTML }}</div>
+          </div>
         </li>
       {{ end }}
     </ol>

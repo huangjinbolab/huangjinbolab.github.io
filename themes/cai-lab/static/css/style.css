@@ -25,8 +25,17 @@ h1, h2, h3 { margin: 0 0 12px; }
 .member img { width: 80px; height: 80px; object-fit: cover; border-radius: 8px; border: 1px solid var(--border); }
 .member .role { color: var(--primary); font-weight: 600; }
 .member .bio, .member .email { color: var(--muted); font-size: 14px; }
-.pubs h2 { margin-top: 24px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
-.pubs ol { padding-left: 20px; }
+.pubs h2 { margin-top: 32px; margin-bottom: 16px; border-bottom: 2px solid var(--border); padding-bottom: 8px; font-size: 1.5em; }
+.pub-list { list-style: none; padding-left: 0; counter-reset: pub-counter; }
+.pub-item { counter-increment: pub-counter; margin-bottom: 28px; padding: 0; }
+.pub-item::before { content: counter(pub-counter) ". "; font-weight: 600; color: var(--primary); margin-right: 8px; float: left; font-size: 1em; }
+.pub-content { margin-left: 2em; }
+.pub-venue-name { color: var(--muted); font-size: 1em; margin-bottom: 5.6px; font-weight: 500; }
+.pub-title { font-weight: 600; color: var(--fg); margin-bottom: 5.6px; line-height: 1.5; font-size: 1em; }
+.pub-authors { color: var(--muted); font-size: 0.95em; line-height: 1.6; }
+.pub-authors strong { color: var(--fg); font-weight: 700; }
+.pub-link { color: var(--primary); text-decoration: none; font-weight: 500; margin-left: 8px; font-size: 0.9em; }
+.pub-link:hover { text-decoration: underline; }
 .images img { max-width: 100%; border-radius: 8px; border: 1px solid var(--border); margin-right: 8px; margin-bottom: 8px; }
 .carousel { position: relative; overflow: hidden; border: 1px solid var(--border); border-radius: 10px; }
 .carousel .slides { display: flex; transition: transform 0.6s ease; }
