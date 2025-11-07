@@ -24,6 +24,11 @@
     </div>
   </div>
   <div class="header-nav">
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
     <nav class="main-nav">
       <ul>
         {{ range site.Menus.main }}
@@ -33,3 +38,25 @@
     </nav>
   </div>
 </header>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.mobile-menu-toggle');
+    const mainNav = document.querySelector('.main-nav');
+    
+    if (menuToggle && mainNav) {
+      menuToggle.addEventListener('click', function() {
+        mainNav.classList.toggle('mobile-menu-open');
+        menuToggle.classList.toggle('active');
+      });
+      
+      // 点击菜单项后关闭菜单
+      const menuLinks = mainNav.querySelectorAll('a');
+      menuLinks.forEach(link => {
+        link.addEventListener('click', function() {
+          mainNav.classList.remove('mobile-menu-open');
+          menuToggle.classList.remove('active');
+        });
+      });
+    }
+  });
+</script>
