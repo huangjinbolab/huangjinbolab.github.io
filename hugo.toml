@@ -23,7 +23,7 @@ theme = "cai-lab"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "研究"
+    name = "研究内容"
     url = "/research/"
     weight = 2
   [[menu.main]]
@@ -31,7 +31,7 @@ theme = "cai-lab"
     url = "/team/"
     weight = 3
   [[menu.main]]
-    name = "论文"
+    name = "研究成果"
     url = "/publications/"
     weight = 4
   [[menu.main]]
@@ -39,10 +39,10 @@ theme = "cai-lab"
     url = "/news/"
     weight = 5
   [[menu.main]]
-    name = "招聘"
+    name = "加入我们"
     url = "/jobs/"
     weight = 6
   [[menu.main]]
-    name = "其他"
+    name = "实验室活动"
     url = "/misc/"
     weight = 7

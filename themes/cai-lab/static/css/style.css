@@ -6,15 +6,50 @@
   --border: #e5e7eb;
 }
 * { box-sizing: border-box; }
-body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "PingFang SC", "Hiragino Sans GB", sans-serif; color: var(--fg); background: var(--bg); }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "SimHei", sans-serif; color: var(--fg); background: var(--bg); }
 .container { max-width: 1000px; margin: 0 auto; padding: 24px; }
-.site-header { border-bottom: 1px solid var(--border); position: sticky; top: 0; background: var(--bg); z-index: 10; }
-.nav { display: flex; align-items: center; justify-content: space-between; }
-.brand { font-weight: 700; color: var(--fg); text-decoration: none; }
-nav ul { list-style: none; display: flex; gap: 16px; margin: 0; padding: 0; }
-nav a { color: var(--fg); text-decoration: none; padding: 8px 10px; border-radius: 6px; }
-nav a:hover { background: var(--border); }
-.site-footer { border-top: 1px solid var(--border); padding: 16px 0; color: var(--muted); }
+.site-header { border-bottom: none; position: relative; background: var(--bg); z-index: 10; overflow: hidden; }
+.header-background { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('/images/hero-main.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; z-index: 1; }
+.header-background::after { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.2); z-index: 1; }
+.header-top { position: relative; padding: 30px 0 45px 0; min-height: 300px; z-index: 2; }
+.header-top-content { position: relative; z-index: 2; max-width: 1400px; margin: 0 auto; padding: 0 40px; display: flex; justify-content: space-between; align-items: flex-start; }
+.header-left { flex: 1; display: flex; align-items: flex-start; }
+.lab-info-wrapper { display: flex; flex-direction: column; align-items: center; }
+.lab-name { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "SimHei", sans-serif; font-size: 2.0em; font-weight: 700; color: #ffffff; margin: 0 0 10px 0; letter-spacing: 0.03em; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6), 0 0 12px rgba(0, 0, 0, 0.4); text-align: center; }
+.lab-affiliation { margin-top: 0; }
+.affiliation-logo { max-height: 50px; width: auto; height: auto; filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5)); }
+.header-right { display: flex; align-items: center; gap: 30px; }
+.language-switcher { display: flex; align-items: center; gap: 12px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "SimHei", sans-serif; font-size: 0.95em; color: #ffffff; font-weight: 600; }
+.lang-item { cursor: pointer; padding: 7px 12px; text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6), 0 0 10px rgba(0, 0, 0, 0.4); transition: all 0.3s; border-radius: 4px; }
+.lang-item:hover { background: rgba(255, 255, 255, 0.2); }
+.lang-item.active { font-weight: 700; background: rgba(255, 255, 255, 0.25); }
+.lang-separator { color: rgba(255, 255, 255, 0.95); font-weight: 400; }
+.search-box { display: flex; align-items: center; background: rgba(255, 255, 255, 0.25); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 6px; padding: 8px 14px; backdrop-filter: blur(4px); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08); }
+.search-box input { border: none; background: transparent; outline: none; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "SimHei", sans-serif; font-size: 0.9em; width: 220px; color: var(--fg); font-weight: 500; }
+.search-box input::placeholder { color: var(--muted); }
+.search-btn { border: none; background: transparent; cursor: pointer; font-size: 1.2em; padding: 0; color: var(--fg); }
+.header-nav { background: transparent; padding: 0; position: relative; z-index: 2; }
+.main-nav { max-width: 1400px; margin: 0 auto; }
+.main-nav ul { list-style: none; display: flex; justify-content: space-around; margin: 0; padding: 0; }
+.main-nav li { flex: 1; text-align: center; }
+.main-nav a { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "SimHei", sans-serif; color: #ffffff; text-decoration: none; padding: 16px 12px; display: block; font-size: 0.96em; font-weight: 600; letter-spacing: 0.02em; transition: all 0.3s; text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6), 0 0 12px rgba(0, 0, 0, 0.4); }
+.main-nav a:hover { background: rgba(255, 255, 255, 0.18); transform: translateY(-1px); }
+.main-nav a.active { background: rgba(255, 255, 255, 0.28); color: #ffffff; font-weight: 700; }
+.homepage-content { padding: 40px 0; }
+@media (max-width: 768px) {
+  .header-top { padding: 30px 0; min-height: 250px; }
+  .header-top-content { flex-direction: column; gap: 20px; padding: 0 20px; }
+  .lab-name { font-size: 1.6em; margin: 0 0 10px 0; }
+  .affiliation-logo { max-height: 40px; }
+  .header-right { width: 100%; justify-content: space-between; gap: 16px; }
+  .language-switcher { font-size: 0.85em; }
+  .search-box { padding: 8px 12px; }
+  .search-box input { width: 150px; font-size: 0.8em; }
+  .main-nav ul { flex-wrap: wrap; }
+  .main-nav a { padding: 12px 10px; font-size: 0.84em; }
+}
+.site-footer { border-top: 1px solid var(--border); padding: 16px 0; color: var(--muted); text-align: center; }
+.site-footer .contact { text-align: center; }
 h1, h2, h3 { margin: 0 0 12px; }
 .content { color: #222; line-height: 1.75; margin-bottom: 16px; }
 .hero img { width: 100%; border-radius: 10px; border: 1px solid var(--border); }

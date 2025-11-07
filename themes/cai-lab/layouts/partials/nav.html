@@ -1,10 +1,33 @@
 <header class="site-header">
-  <div class="container nav">
-    <a class="brand" href="/">{{ site.Params.lab_name }}</a>
-    <nav>
+  <div class="header-background"></div>
+  <div class="header-top">
+    <div class="header-top-content">
+      <div class="header-left">
+        <div class="lab-info-wrapper">
+          <h1 class="lab-name">{{ site.Params.lab_name }}</h1>
+          <div class="lab-affiliation">
+            <img src="/images/logo.png" alt="{{ site.Params.address }}" class="affiliation-logo" />
+          </div>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="language-switcher">
+          <span class="lang-item active">中文</span>
+          <span class="lang-separator">|</span>
+          <span class="lang-item">English</span>
+        </div>
+        <div class="search-box">
+          <input type="text" placeholder="关键词..." />
+          <button class="search-btn">🔍</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-nav">
+    <nav class="main-nav">
       <ul>
         {{ range site.Menus.main }}
-          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          <li><a href="{{ .URL }}" {{ if or (eq $.RelPermalink .URL) (and (ne .URL "/") (hasPrefix $.RelPermalink .URL)) }}class="active"{{ end }}>{{ .Name }}</a></li>
         {{ end }}
       </ul>
     </nav>
