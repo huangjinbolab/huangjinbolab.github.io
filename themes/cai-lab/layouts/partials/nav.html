@@ -30,6 +30,11 @@
       <span></span>
     </button>
     <nav class="main-nav">
+      <button class="mobile-menu-close" aria-label="Close menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <ul>
         {{ range site.Menus.main }}
           <li><a href="{{ .URL }}" {{ if or (eq $.RelPermalink .URL) (and (ne .URL "/") (hasPrefix $.RelPermalink .URL)) }}class="active"{{ end }}>{{ .Name }}</a></li>
@@ -41,6 +46,7 @@
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.querySelector('.mobile-menu-toggle');
+    const menuClose = document.querySelector('.mobile-menu-close');
     const mainNav = document.querySelector('.main-nav');
     const body = document.body;
     
@@ -48,23 +54,32 @@
       function openMenu() {
         mainNav.classList.add('mobile-menu-open');
         menuToggle.classList.add('active');
+        menuToggle.style.opacity = '0';
+        menuToggle.style.pointerEvents = 'none';
+        if (menuClose) menuClose.classList.add('active');
         body.style.overflow = 'hidden'; // 防止背景滚动
       }
       
       function closeMenu() {
         mainNav.classList.remove('mobile-menu-open');
         menuToggle.classList.remove('active');
+        menuToggle.style.opacity = '';
+        menuToggle.style.pointerEvents = '';
+        if (menuClose) menuClose.classList.remove('active');
         body.style.overflow = ''; // 恢复滚动
       }
       
       menuToggle.addEventListener('click', function(e) {
         e.stopPropagation();
-        if (mainNav.classList.contains('mobile-menu-open')) {
-          closeMenu();
-        } else {
-          openMenu();
-        }
+        openMenu();
       });
+      
+      if (menuClose) {
+        menuClose.addEventListener('click', function(e) {
+          e.stopPropagation();
+          closeMenu();
+        });
+      }
       
       // 点击菜单项后关闭菜单
       const menuLinks = mainNav.querySelectorAll('a');
@@ -72,13 +87,6 @@
         link.addEventListener('click', function() {
           closeMenu();
         });
-      });
-      
-      // 点击菜单外部区域关闭菜单
-      mainNav.addEventListener('click', function(e) {
-        if (e.target === mainNav) {
-          closeMenu();
-        }
       });
       
       // ESC键关闭菜单
