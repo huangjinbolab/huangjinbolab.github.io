@@ -2,19 +2,21 @@
 <h1>{{ .Title }}</h1>
 <div class="content">{{ .Content }}</div>
 <div class="pubs">
+  {{/* Sort publications by year (newest first) */}}
+  {{ $sortedPubs := sort site.Data.publications "year" "desc" }}
+  
   {{/* Calculate total publications and count publications before each year */}}
   {{ $totalPubs := 0 }}
   {{ $yearCounts := slice }}
-  {{ range reverse site.Data.publications }}
+  {{ range reverse $sortedPubs }}
     {{ $yearCounts = $yearCounts | append (len .items) }}
     {{ $totalPubs = add $totalPubs (len .items) }}
   {{ end }}
   
-  {{/* Display in original order (newest first) with numbers from oldest */}}
-  {{ $currentNum := 1 }}
-  {{ range $yIdx, $yearData := site.Data.publications }}
+  {{/* Display in order (newest first) with numbers from oldest */}}
+  {{ range $yIdx, $yearData := $sortedPubs }}
     {{/* Calculate how many publications come before this year in reverse order */}}
-    {{ $revIdx := sub (sub (len site.Data.publications) 1) $yIdx }}
+    {{ $revIdx := sub (sub (len $sortedPubs) 1) $yIdx }}
     {{ $pubsBefore := 0 }}
     {{ range $i := seq 0 (sub $revIdx 1) }}
       {{ $pubsBefore = add $pubsBefore (index $yearCounts $i) }}
