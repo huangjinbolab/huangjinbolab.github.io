@@ -107,8 +107,9 @@ h1, h2, h3 { margin: 0 0 12px; }
 .member-bio ul { list-style: none; padding-left: 0; margin: 8px 0; }
 .member-bio li { margin-bottom: 6px; }
 .member-bio li::before { content: ""; }
+.pubs { counter-reset: pub-counter; }
 .pubs h2 { margin-top: 32px; margin-bottom: 16px; border-bottom: 2px solid var(--border); padding-bottom: 8px; font-size: 1.5em; }
-.pub-list { list-style: none; padding-left: 0; counter-reset: pub-counter; }
+.pub-list { list-style: none; padding-left: 0; }
 .pub-item { counter-increment: pub-counter; margin-bottom: 28px; padding: 0; }
 .pub-item::before { content: counter(pub-counter) ". "; font-weight: 600; color: var(--primary); margin-right: 8px; float: left; font-size: 1em; }
 .pub-content { margin-left: 2em; }
