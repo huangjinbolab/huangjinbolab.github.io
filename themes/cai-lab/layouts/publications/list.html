@@ -23,9 +23,13 @@
   {{/* Calculate total publications and count publications before each year */}}
   {{ $totalPubs := 0 }}
   {{ $yearCounts := slice }}
-  {{ range reverse $sortedPubs }}
-    {{ $yearCounts = $yearCounts | append (len .items) }}
-    {{ $totalPubs = add $totalPubs (len .items) }}
+  {{/* Iterate through sortedPubs in reverse order by index */}}
+  {{ $sortedPubsLen := len $sortedPubs }}
+  {{ range $i := seq 0 (sub $sortedPubsLen 1) }}
+    {{ $revIdx := sub (sub $sortedPubsLen 1) $i }}
+    {{ $yearData := index $sortedPubs $revIdx }}
+    {{ $yearCounts = $yearCounts | append (len $yearData.items) }}
+    {{ $totalPubs = add $totalPubs (len $yearData.items) }}
   {{ end }}
   
   {{/* Display in order (newest first) with numbers from oldest */}}
