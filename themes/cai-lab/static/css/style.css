@@ -94,7 +94,7 @@ h1, h2, h3 { margin: 0 0 12px; }
 .team-intro { text-align: justify; }
 .hero img { width: 100%; border-radius: 10px; border: 1px solid var(--border); }
 .post-list { padding-left: 20px; }
-.post-list .date { color: var(--muted); margin-left: 8px; font-size: 12px; }
+.post-list .date { color: var(--muted); margin-right: 8px; font-size: 12px; }
 .team-section { margin-top: 24px; }
 .team-member { display: flex; align-items: flex-start; gap: 24px; margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
 .team-member:last-child { border-bottom: none; }
