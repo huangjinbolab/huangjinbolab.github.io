@@ -6,7 +6,7 @@ theme = "cai-lab"
   pagerSize = 10
 
 [params]
-  lab_name = "黄金波实验室（Huang Lab）@HIM, CAS"
+  lab_name = "黄金波实验室（Huang Lab）@ HIM, CAS"
   tagline = "合成生物学 · 智能细胞工程 · 精准医疗"
   email = "huangjinbolab@outlook.com"
   address = "中国科学院杭州医学研究所"
