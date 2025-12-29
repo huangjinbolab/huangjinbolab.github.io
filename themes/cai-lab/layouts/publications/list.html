@@ -44,8 +44,12 @@
     
     <h2>{{ $yearData.year }}</h2>
     <ol class="pub-list">
-      {{ range $iIdx, $item := $yearData.items }}
-        {{ $pubNum := add $pubsBefore (add $iIdx 1) }}
+      {{/* Reverse items within each year so smallest number is at bottom */}}
+      {{ $itemsLen := len $yearData.items }}
+      {{ range $i := seq 0 (sub $itemsLen 1) }}
+        {{ $revIdx := sub (sub $itemsLen 1) $i }}
+        {{ $item := index $yearData.items $revIdx }}
+        {{ $pubNum := add $pubsBefore (add $revIdx 1) }}
         <li class="pub-item" data-pub-num="{{ $pubNum }}">
           <div class="pub-content">
             {{ $venueParts := split $item.venue "," }}
