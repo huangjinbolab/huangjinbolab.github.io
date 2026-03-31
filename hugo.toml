@@ -39,12 +39,12 @@ theme = "cai-lab"
     name = "工作人员"
     url = "/team-members/staff/"
     parent = "team-members"
-    weight = 1
+    weight = 2
   [[menu.main]]
     name = "博士后"
     url = "/team-members/postdocs/"
     parent = "team-members"
-    weight = 2
+    weight = 1
   [[menu.main]]
     name = "研究生"
     url = "/team-members/graduate-students/"

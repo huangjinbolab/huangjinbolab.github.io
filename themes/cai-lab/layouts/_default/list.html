@@ -2,13 +2,21 @@
 <h1>{{ .Title }}</h1>
 <div class="content">{{ .Content }}</div>
 <ul class="post-list">
-  {{ range .Pages.ByDate.Reverse }}
-    <li>
-      {{ if eq .Section "news" }}
-        <span class="date">{{ .Date.Format "2006-01-02" }}</span>
-      {{ end }}
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </li>
+  {{ if eq .Section "team-members" }}
+    {{ range .Pages.ByWeight }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  {{ else }}
+    {{ range .Pages.ByDate.Reverse }}
+      <li>
+        {{ if eq .Section "news" }}
+          <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+        {{ end }}
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
   {{ end }}
 </ul>
 {{ end }}
