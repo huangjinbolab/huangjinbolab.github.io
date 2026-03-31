@@ -43,9 +43,26 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ro
 .main-nav { max-width: 1400px; margin: 0 auto; }
 .main-nav ul { list-style: none; display: flex; justify-content: space-around; margin: 0; padding: 0; }
 .main-nav li { flex: 1; text-align: center; }
+.main-nav li { position: relative; }
 .main-nav a { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "SimHei", sans-serif; color: #ffffff; text-decoration: none; padding: 16px 12px; display: block; font-size: 0.96em; font-weight: 600; letter-spacing: 0.02em; transition: all 0.3s; text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6), 0 0 12px rgba(0, 0, 0, 0.4); }
 .main-nav a:hover { background: rgba(255, 255, 255, 0.18); transform: translateY(-1px); }
 .main-nav a.active { background: rgba(255, 255, 255, 0.28); color: #ffffff; font-weight: 700; }
+.main-nav .sub-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  min-width: 180px;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 0 0 8px 8px;
+  overflow: hidden;
+  z-index: 1001;
+}
+.main-nav li.has-children:hover > .sub-menu { display: flex; }
+.main-nav .sub-menu li { flex: none; text-align: left; border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
+.main-nav .sub-menu li:last-child { border-bottom: none; }
+.main-nav .sub-menu a { padding: 12px 16px; font-size: 0.92em; text-shadow: none; }
 .homepage-content { padding: 40px 0; }
 @media (max-width: 768px) {
   .header-background { background-position: right center; }
@@ -75,6 +92,28 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ro
   .main-nav a { padding: 20px 24px; font-size: 1.2em; text-align: left; display: block; width: 100%; border-left: 4px solid transparent; transition: all 0.3s ease; color: #ffffff !important; font-weight: 600; text-shadow: none; letter-spacing: 0.5px; }
   .main-nav a:hover, .main-nav a:active { transform: none; background: rgba(255, 255, 255, 0.2); border-left-color: #ffffff; padding-left: 32px; }
   .main-nav a.active { background: rgba(255, 255, 255, 0.25); border-left-color: #ffffff; font-weight: 700; color: #ffffff !important; }
+  .main-nav .sub-menu {
+    display: flex;
+    position: static;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 0;
+    min-width: 100%;
+    margin: 0;
+    z-index: auto;
+  }
+  .main-nav .sub-menu li { border-bottom: 1px solid rgba(255, 255, 255, 0.12); }
+  .main-nav .sub-menu a {
+    padding: 14px 40px;
+    font-size: 1em;
+    border-left: none;
+    color: rgba(255, 255, 255, 0.92) !important;
+  }
+  .main-nav .sub-menu a:hover,
+  .main-nav .sub-menu a:active {
+    padding-left: 48px;
+    border-left: none;
+    background: rgba(255, 255, 255, 0.15);
+  }
 }
 @media (max-width: 480px) {
   .header-top-content { padding: 0 12px; gap: 8px; }

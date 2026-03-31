@@ -27,22 +27,52 @@ theme = "cai-lab"
     url = "/research/"
     weight = 2
   [[menu.main]]
-    name = "团队"
+    name = "课题组长"
     url = "/team/"
     weight = 3
   [[menu.main]]
+    name = "团队成员"
+    url = "/team-members/"
+    identifier = "team-members"
+    weight = 4
+  [[menu.main]]
+    name = "工作人员"
+    url = "/team-members/staff/"
+    parent = "team-members"
+    weight = 1
+  [[menu.main]]
+    name = "博士后"
+    url = "/team-members/postdocs/"
+    parent = "team-members"
+    weight = 2
+  [[menu.main]]
+    name = "研究生"
+    url = "/team-members/graduate-students/"
+    parent = "team-members"
+    weight = 3
+  [[menu.main]]
+    name = "其他成员"
+    url = "/team-members/other-members/"
+    parent = "team-members"
+    weight = 4
+  [[menu.main]]
+    name = "Alumni"
+    url = "/team-members/alumni/"
+    parent = "team-members"
+    weight = 5
+  [[menu.main]]
     name = "研究成果"
     url = "/publications/"
-    weight = 4
+    weight = 5
   [[menu.main]]
     name = "新闻"
     url = "/news/"
-    weight = 5
+    weight = 6
   [[menu.main]]
     name = "加入我们"
     url = "/jobs/"
-    weight = 6
+    weight = 7
   [[menu.main]]
     name = "实验室活动"
     url = "/misc/"
-    weight = 7
+    weight = 8

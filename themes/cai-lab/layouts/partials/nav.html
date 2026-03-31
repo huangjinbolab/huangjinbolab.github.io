@@ -37,7 +37,18 @@
       </button>
       <ul>
         {{ range site.Menus.main }}
-          <li><a href="{{ .URL }}" {{ if or (eq $.RelPermalink .URL) (and (ne .URL "/") (hasPrefix $.RelPermalink .URL)) }}class="active"{{ end }}>{{ .Name }}</a></li>
+          <li class="{{ if .HasChildren }}has-children{{ end }}">
+            <a href="{{ .URL }}" {{ if or (eq $.RelPermalink .URL) (and (ne .URL "/") (hasPrefix $.RelPermalink .URL)) }}class="active"{{ end }}>{{ .Name }}</a>
+            {{ if .HasChildren }}
+              <ul class="sub-menu">
+                {{ range .Children }}
+                  <li>
+                    <a href="{{ .URL }}" {{ if or (eq $.RelPermalink .URL) (and (ne .URL "/") (hasPrefix $.RelPermalink .URL)) }}class="active"{{ end }}>{{ .Name }}</a>
+                  </li>
+                {{ end }}
+              </ul>
+            {{ end }}
+          </li>
         {{ end }}
       </ul>
     </nav>
