@@ -1,0 +1,38 @@
+sections:
+  - id: postdocs
+    title: 博士后
+    weight: 1
+    intro: 博士后成员名单如下。
+    members:
+      - name: 邢诗嘉
+        degree: 博士
+        education: 毕业于北京大学
+        photo: ""
+      - name: 田亚飞
+        degree: 博士
+        education: 毕业于吉林大学
+        photo: ""
+  - id: staff
+    title: 工作人员
+    weight: 2
+    intro: ""
+    placeholder: 工作人员信息将陆续更新。
+    members: []
+  - id: graduate-students
+    title: 研究生
+    weight: 3
+    intro: ""
+    placeholder: 研究生成员信息将陆续更新。
+    members: []
+  - id: other-members
+    title: 其他成员
+    weight: 4
+    intro: ""
+    placeholder: 其他成员信息将陆续更新。
+    members: []
+  - id: alumni
+    title: Alumni
+    weight: 5
+    intro: ""
+    placeholder: Alumni 信息将陆续更新。
+    members: []

@@ -1,0 +1,32 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div class="content team-members-intro">{{ .Content }}</div>
+<div class="team-members-page">
+  {{ range sort site.Data.team_members.sections "weight" }}
+    <section class="team-members-section" id="{{ .id }}">
+      <h2 class="team-members-section-title">{{ .title }}</h2>
+      {{ with .intro }}
+        <p class="team-members-section-lead">{{ . }}</p>
+      {{ end }}
+      {{ if .members }}
+        <div class="team-members-grid">
+          {{ range .members }}
+            <article class="team-member-card">
+              <div class="team-member-photo-placeholder">
+                {{ with .photo }}
+                  <img src="{{ . }}" alt="{{ $.name }}" />
+                {{ end }}
+              </div>
+              <div class="team-member-card-name">{{ .name }}</div>
+              <div class="team-member-card-meta">{{ .degree }}，{{ .education }}</div>
+            </article>
+          {{ end }}
+        </div>
+      {{ else if .placeholder }}
+        <p class="team-members-placeholder">{{ .placeholder }}</p>
+      {{ end }}
+      <hr class="team-members-section-rule" />
+    </section>
+  {{ end }}
+</div>
+{{ end }}
