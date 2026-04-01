@@ -2,7 +2,7 @@ sections:
   - id: postdocs
     title: Postdocs
     weight: 1
-    intro: Current postdoctoral members are listed below.
+    intro: ""
     members:
       - name: Shijia Xing
         bio: >-
@@ -13,13 +13,13 @@ sections:
           Dr. Tian obtained her Ph.D. from Jilin University, where she focused on targeted delivery of nucleic-acid molecules through nano-delivery systems to investigate therapeutic effects and molecular mechanisms in liver fibrosis. She is currently developing a synthetic gene circuit for autonomous control of CAR-T cytokine release syndrome, aiming to reduce acute CAR-T toxicity without compromising anti-tumor efficacy.
         photo: "/images/team/tian-yafei.png"
   - id: staff
-    title: Staff
+    title: Research Assistant / Technician
     weight: 2
-    intro: Current staff members are listed below.
+    intro: ""
     members:
       - name: Lingyuan Zhu
         bio: >-
-          Lingyuan Zhu is currently a research assistant in Huang Lab. She received her master's degree from China Pharmaceutical University, where she focused on molecular mechanisms of tumor-related genes. She combines practical strengths in both fundamental research and industrial applications, with more than two years of technical support experience in biotech companies, and is skilled at translating theory into practical experimental solutions.
+          Research Assistant. Zhu Lingyuan received her master’s degree from China Pharmaceutical University, where she focused on studying the mechanisms of tumor-related genes. She possesses cross-disciplinary practical expertise spanning both fundamental research and industrial applications, with over two years of experience in technical support at a biotechnology company. She is skilled at translating theoretical knowledge into practical and feasible experimental solutions.
         photo: "/images/team/zhu-lingyuan.png"
   - id: graduate-students
     title: Graduate Students
