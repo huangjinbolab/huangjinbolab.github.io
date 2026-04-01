@@ -20,7 +20,11 @@
                 {{ end }}
               </div>
               <div class="team-member-card-name">{{ .name }}</div>
-              <div class="team-member-card-meta">{{ .degree }}，{{ .education }}</div>
+              {{ if .bio }}
+                <div class="team-member-card-meta">{{ .bio }}</div>
+              {{ else }}
+                <div class="team-member-card-meta">{{ .degree }}，{{ .education }}</div>
+              {{ end }}
             </article>
           {{ end }}
         </div>
