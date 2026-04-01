@@ -7,11 +7,11 @@ sections:
       - name: Shijia Xing
         bio: >-
           Dr. Xing received her Ph.D. in Biophysics from Peking University. During her doctoral training, she mainly focused on super-resolution imaging, with an emphasis on uncovering molecular mechanisms underlying disease progression and neural activity regulation during learning and memory in zebrafish. Her current research focuses on developing novel controllable cell-therapy tools and exploring their clinical applications in the treatment of cancer, genetic disorders, metabolic diseases, and other conditions.
-        photo: ""
+        photo: "/images/team/xing-shijia.png"
       - name: Yafei Tian
         bio: >-
           Dr. Tian obtained her Ph.D. from Jilin University, where she focused on targeted delivery of nucleic-acid molecules through nano-delivery systems to investigate therapeutic effects and molecular mechanisms in liver fibrosis. She is currently developing a synthetic gene circuit for autonomous control of CAR-T cytokine release syndrome, aiming to reduce acute CAR-T toxicity without compromising anti-tumor efficacy.
-        photo: ""
+        photo: "/images/team/tian-yafei.png"
   - id: staff
     title: Staff
     weight: 2
