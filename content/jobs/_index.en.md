@@ -2,16 +2,17 @@
 title: "Open Positions"
 ---
 
-## Huang Lab Is Recruiting Postdoctoral Fellows and Research Assistants (Long-term Open)
+## Huang Lab is Recruiting Postdoctoral Fellows and Research Assistants (Long-term Open)
 
 Prof. Jinbo Huang joined the Hangzhou Institute of Medicine, Chinese Academy of Sciences, in December 2025, and established the "Intelligent Cell Engineering and Precision Medicine" Laboratory.
 
 Our core mission is to integrate frontier approaches from synthetic biology, biomedical engineering, artificial intelligence, materials science, and electronic engineering to develop next-generation gene and cell therapy tools. We aim to design controllable artificial signaling pathways and intelligent sensing systems for precise cell programming, accelerated evolution, and functional remodeling. Our long-term vision is to empower cells with sensing, decision-making, and execution capabilities, thereby transforming prevention, diagnosis, and treatment of cancer, immune diseases, genetic disorders, and metabolic diseases, and advancing next-generation cell therapies and intelligent biosystems. Current research areas include, but are not limited to:
 
-1. Development and directed evolution of receptors responsive to clinically safe drugs;
-2. Development of precisely controllable gene-delivery systems;
-3. Development and application of in situ gene-therapy technologies;
-4. Development and application of electrogenetic tools, wearable devices, and gene-therapy interfaces.
+1. Development and directed evolution of receptors responsive to biosafe drugs;
+2. Development of precisely controllable gene delivery systems;
+3. Development and application of intelligent cell delivery systems;
+4. Development and application of in situ gene therapy technologies;
+5. Development and application of electroceutical (electrogenetic) tools and wearable devices integrated with gene therapy.
 
 We are also open to innovative directions brought by you. Breakthrough ideas often emerge at the intersection of disciplines. Applicants with backgrounds in engineering, computer science, physics, chemistry, materials, and related areas are welcome, especially those eager to apply their strengths to life-science frontiers. Even if your biology background is currently limited, enthusiasm and learning ability are highly valued. We foster a culture of freedom, innovation, collaboration, and mutual support, and we value both independent thinking and team contribution.
 
