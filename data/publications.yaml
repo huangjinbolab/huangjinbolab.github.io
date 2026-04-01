@@ -10,7 +10,7 @@
     - title: "Programming mammalian gene expression via physical cues"
       authors: "Huang, J. and Fussenegger, M.*"
       venue: "Trends in Biotechnology, 2025, 43(1):16-42."
-      link: "https://doi.org/10.1016/j.tibtech.2024.11.001"
+      link: "https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(24)00208-7"
     - title: "Aspirin-responsive gene switch regulating therapeutic protein expression"
       authors: "Huang, J., Teixeira, A.P., Gao, T., Xue, S., Xie, M. and Fussenegger, M.*"
       venue: "Nature Communications, 2025, 16(1):2028."
@@ -48,18 +48,18 @@
     - title: "Evolution of molecular switches for regulation of transgene expression by clinically licensed gluconate"
       authors: "Teixeira, A.P.#, Xue, S.#, Huang, J. and Fussenegger, M.*"
       venue: "Nucleic Acids Research, 2023, 51(15):e85."
-      link: "https://doi.org/10.1093/nar/gkad625"
+      link: "https://academic.oup.com/nar/article/51/15/e85/7232106?guestAccessKey="
     - title: "A versatile bioelectronic interface programmed for hormone sensing"
       authors: "Guha Ray, P., Maity, D., Huang, J., Zulewski, H. and Fussenegger, M.*"
       venue: "Nature Communications, 2023, 14(1):3151."
-      link: "https://doi.org/10.1038/s41467-023-38899-3"
+      link: "https://www.nature.com/articles/s41467-023-39015-1"
 
 - year: 2019
   items:
     - title: "Solution structure of the RNA recognition domain of METTL3-METTL14 N6-methyladenosine methyltransferase"
       authors: "Huang, J.#, Dong, X.#, Gong, Z.#, Qin, L.Y., Yang, S., Zhu, Y.L., Wang, X., Zhang, D., Zou, T., Yin, P.* and Tang, C.*"
       venue: "Protein & Cell, 2019, 10(4):272-284."
-      link: "https://doi.org/10.1007/s13238-018-0596-8"
+      link: "https://academic.oup.com/proteincell/article/10/4/272/6759280?login=false"
 
 - year: 2018
   items:
@@ -73,14 +73,14 @@
     - title: "Human m6A writers: Two subunits, 2 roles"
       authors: "Wang, X., Huang, J., Zou, T. and Yin, P.*"
       venue: "RNA Biology, 2017, 14(3):300-304."
-      link: "https://doi.org/10.1080/15476286.2017.1300224"
+      link: "https://www.tandfonline.com/doi/full/10.1080/15476286.2017.1282025"
 
 - year: 2016
   items:
     - title: "Crystal structure of Cry6Aa: A novel nematicidal ClyA-type α-pore-forming toxin from Bacillus thuringiensis"
       authors: "Huang, J., Guan, Z., Wan, L., Zou, T. and Sun, M.*"
       venue: "Biochemical and Biophysical Research Communications, 2016, 478:307-313."
-      link: "https://doi.org/10.1016/j.bbrc.2016.07.040"
+      link: "https://www.sciencedirect.com/science/article/abs/pii/S0006291X16311184"
     - title: "Structural basis of N6-adenosine methylation by the METTL3–METTL14 complex"
       authors: "Wang, X.#, Feng, J.#, Xue, Y.#, Guan, Z., Zhang, D., Liu, Z., Gong, Z., Wang, Q., Huang, J., Tang, C., Zou, T. and Yin P.*"
       venue: "Nature, 2016, 534(7608):575-578."
