@@ -1,6 +1,8 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-<div class="content team-members-intro">{{ .Content }}</div>
+{{ with .Content }}
+<div class="content team-members-intro">{{ . }}</div>
+{{ end }}
 <div class="team-members-page">
   {{ range sort site.Data.team_members.sections "weight" }}
     <section class="team-members-section" id="{{ .id }}">

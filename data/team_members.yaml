@@ -15,9 +15,12 @@ sections:
   - id: staff
     title: 工作人员
     weight: 2
-    intro: ""
-    placeholder: 工作人员信息将陆续更新。
-    members: []
+    intro: 工作人员名单如下。
+    members:
+      - name: 朱玲媛
+        degree: 硕士
+        education: 毕业于中国药科大学
+        photo: ""
   - id: graduate-students
     title: 研究生
     weight: 3
