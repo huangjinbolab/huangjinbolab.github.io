@@ -147,6 +147,24 @@ h1, h2, h3 { margin: 0 0 12px; }
 .member-bio li { margin-bottom: 6px; }
 .member-bio li::before { content: ""; }
 .pubs h2 { margin-top: 32px; margin-bottom: 16px; border-bottom: 2px solid var(--border); padding-bottom: 8px; font-size: 1.5em; }
+.content hr.postdoc-divider {
+  border: none;
+  border-top: 2px solid var(--border);
+  margin: 20px 0 18px;
+  height: 0;
+}
+.postdoc-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.postdoc-list li {
+  margin-bottom: 14px;
+  line-height: 1.75;
+}
+.postdoc-list li:last-child {
+  margin-bottom: 0;
+}
 .pub-list { list-style: none; padding-left: 0; }
 .pub-item { margin-bottom: 28px; padding: 0; }
 .pub-item::before { content: attr(data-pub-num) ". "; font-weight: 600; color: var(--primary); margin-right: 8px; float: left; font-size: 1em; }
