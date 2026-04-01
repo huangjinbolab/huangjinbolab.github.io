@@ -1,10 +1,11 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
+<div class="pubs-actions">
+  <span class="scholar-tip">完整论文引用情况请查看谷歌学术</span>
+  <a href="https://scholar.google.com/citations?user=stySnLkAAAAJ&hl=zh-CN" target="_blank" rel="noopener" class="scholar-btn">Google Scholar</a>
+</div>
 <div class="content">{{ .Content }}</div>
 <div class="pubs">
-  <div class="pubs-actions">
-    <a href="https://scholar.google.com/citations?user=stySnLkAAAAJ&hl=zh-CN" target="_blank" rel="noopener" class="scholar-btn">Google Scholar</a>
-  </div>
   {{/* Manually sort publications by year in descending order (newest first) */}}
   {{ $allYears := slice }}
   {{ range site.Data.publications }}
