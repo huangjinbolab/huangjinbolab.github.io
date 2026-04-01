@@ -8,7 +8,7 @@
           <h1 class="lab-name">
             {{ index $nameParts 0 }}
             {{ if gt (len $nameParts) 1 }}
-              <br /><span class="lab-name-sub">@ {{ strings.TrimSpace (index $nameParts 1) }}</span>
+              <br /><span class="lab-name-sub">@ {{ trim (index $nameParts 1) " " }}</span>
             {{ end }}
           </h1>
           <div class="lab-affiliation">
