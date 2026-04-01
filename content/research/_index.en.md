@@ -34,7 +34,7 @@ To overcome the lack of reliable electrogenetic tools and insufficient control p
 
 To validate therapeutic potential, we stably integrated this electrical control system into human mesenchymal stem cells (hMSCs) and drove insulin expression for diabetes treatment. Notably, the system is robust across power supplies, from 3V button batteries to 5V power banks. In vivo, we used microencapsulation for long-term survival of therapeutic cells: sodium alginate capsules (~500 um) protected cells from host immunity while allowing diffusion of small molecules such as glucose. After subcutaneous implantation in type 1 diabetic mice, we innovatively used acupuncture needles as subcutaneous electrodes. Daily stimulation at 4.5V for 10-25 s maintained glucose homeostasis, with no significant difference from healthy controls (p>0.05). Long-term monitoring showed recovery of key metabolic indicators, including insulin, ketone bodies, and triglycerides, with no observed local tissue injury or systemic toxicity.
 
-![Figure 1. Construction of a low-voltage DC electrogenetic control system](/images/research/research-fig1-en-v3.png)
+![Figure 1. Construction of a low-voltage DC electrogenetic control system](/images/research/research-fig1-v4.png)
 
 **Key innovations of this work:**
 1. A direct DC-to-gene-expression coupling mechanism without mediator dependence;
