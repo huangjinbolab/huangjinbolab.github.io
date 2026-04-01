@@ -4,8 +4,13 @@
     <div class="header-top-content">
       <div class="header-left">
         <div class="lab-info-wrapper">
-          {{ $labName := replace site.Params.lab_name " @ HIM, CAS" "<br><span class='lab-name-sub'>@ HIM, CAS</span>" }}
-          <h1 class="lab-name">{{ $labName | safeHTML }}</h1>
+          {{ $nameParts := split site.Params.lab_name "@" }}
+          <h1 class="lab-name">
+            {{ index $nameParts 0 }}
+            {{ if gt (len $nameParts) 1 }}
+              <br /><span class="lab-name-sub">@ {{ strings.TrimSpace (index $nameParts 1) }}</span>
+            {{ end }}
+          </h1>
           <div class="lab-affiliation">
             <img src="/images/logo.png" alt="{{ site.Params.address }}" class="affiliation-logo" />
           </div>
