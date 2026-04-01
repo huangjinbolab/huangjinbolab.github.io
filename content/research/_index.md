@@ -133,4 +133,3 @@ title: "研究"
 
 **文章链接：** [https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202309411](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202309411)
 
-{{< research-carousel >}}
