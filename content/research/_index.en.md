@@ -34,7 +34,7 @@ To overcome the lack of reliable electrogenetic tools and insufficient control p
 
 To validate therapeutic potential, we stably integrated this electrical control system into human mesenchymal stem cells (hMSCs) and drove insulin expression for diabetes treatment. Notably, the system is robust across power supplies, from 3V button batteries to 5V power banks. In vivo, we used microencapsulation for long-term survival of therapeutic cells: sodium alginate capsules (~500 um) protected cells from host immunity while allowing diffusion of small molecules such as glucose. After subcutaneous implantation in type 1 diabetic mice, we innovatively used acupuncture needles as subcutaneous electrodes. Daily stimulation at 4.5V for 10-25 s maintained glucose homeostasis, with no significant difference from healthy controls (p>0.05). Long-term monitoring showed recovery of key metabolic indicators, including insulin, ketone bodies, and triglycerides, with no observed local tissue injury or systemic toxicity.
 
-![Figure 1. Construction of a low-voltage DC electrogenetic control system](/images/research/research-fig1.png)
+![Figure 1. Construction of a low-voltage DC electrogenetic control system](/images/research/research-fig1-en.png)
 
 **Key innovations of this work:**
 1. A direct DC-to-gene-expression coupling mechanism without mediator dependence;
@@ -66,7 +66,7 @@ Core advantages include:
 
 In diabetic mouse models, subcutaneous ultrasound stimulation of implanted engineered cells yielded insulin secretion (0.6±0.1 ug/L) sufficient to stabilize blood glucose in the normal range. Glucose tolerance tests showed stimulated mice reduced blood glucose to healthy-control-comparable levels within 90 min.
 
-![Figure 2. Ultrasound-controlled non-invasive gene expression system](/images/research/research-fig2.png)
+![Figure 2. Ultrasound-controlled non-invasive gene expression system](/images/research/research-fig2-en.png)
 
 **Innovations of this platform include:**
 1. Removing nanomaterial dependence and associated biocompatibility risks;
@@ -83,7 +83,7 @@ In our previous electrogenetic (Nature Metabolism 2023) and sonogenetic (NAR 202
 
 In diabetic mice, injection of any tested molecule activated engineered-cell insulin secretion and restored glucose homeostasis. As a built-in safety strategy, we integrated the ROS scavenger NAC as an emergency brake to rapidly terminate transgene expression within 30 min.
 
-![Figure 3. A multi-compound gene expression control platform](/images/research/research-fig3.png)
+![Figure 3. A multi-compound gene expression control platform](/images/research/research-fig3-en.png)
 
 **Innovative value:** This work breaks the receptor-dependent paradigm and establishes a universal redox-signal-based small-molecule-to-gene interface for:
 1. Multimodal combination gene therapy;
@@ -103,7 +103,7 @@ Using cross-species receptor engineering and directed evolution, we built a dual
 
 In chronic diabetic-complication models (sustained hyperglycemia >4 months with neuropathy/inflammation), this system showed multidimensional efficacy. In mice implanted with engineered cells, daily oral ASA (100 mg/kg) precisely controlled insulin secretion and normalized blood glucose. At the same time, ASA's intrinsic anti-inflammatory effects significantly reduced inflammatory markers (including IL-1beta, IL-6, TNF-alpha, IFN-gamma), as well as pain-related biomarkers such as CGRP and MCP1. Importantly, emergency shutdown by vanillic acid can rapidly suppress insulin expression, reducing risk from irreversible overexpression.
 
-![Figure 4. Aspirin-mediated gene regulation system](/images/research/research-fig4.png)
+![Figure 4. Aspirin-mediated gene regulation system](/images/research/research-fig4-en.png)
 
 Clinical translation value is reflected in three aspects:
 1. Exploiting ASA metabolic networks to extend activation via metabolites;
@@ -125,7 +125,7 @@ Based on the Streptococcus mutans ComR-XIP pathway, we built the first mammalian
 4. **Therapeutic validation**: in diabetic models, engineered cells stimulated by XIP or ID3 expressed insulin and maintained glycemic homeostasis.
 5. **Strong safety profile**: neither octapeptides nor hexapeptides induced detectable immunogenicity in 28-day dosing and standardized immunization assays.
 
-![Figure 5. Peptide-regulated gene expression system](/images/research/research-fig5.png)
+![Figure 5. Peptide-regulated gene expression system](/images/research/research-fig5-en.png)
 
 This platform provides another safe and reliable option for gene therapy in personalized medicine and establishes a strong experimental basis for peptide-based therapeutics with high biocompatibility, orthogonality, and minimal cytotoxicity/immunogenicity.
 
