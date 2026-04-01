@@ -16,7 +16,7 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ro
 .header-left { flex: 1; display: flex; align-items: flex-start; }
 .lab-info-wrapper { display: flex; flex-direction: column; align-items: center; }
 .lab-name { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "SimHei", sans-serif; font-size: 2.0em; font-weight: 700; color: #ffffff; margin: 0 0 10px 0; letter-spacing: 0.03em; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6), 0 0 12px rgba(0, 0, 0, 0.4); text-align: center; }
-.lab-name-sub { font-size: 0.72em; font-weight: 600; letter-spacing: 0.02em; display: inline-block; margin-top: 2px; }
+.lab-name-sub { font-size: 0.72em; font-weight: 600; letter-spacing: 0.02em; display: block; margin-top: 2px; text-align: left; }
 .lab-affiliation { margin-top: 0; }
 .affiliation-logo { max-height: 50px; width: auto; height: auto; filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5)); }
 .header-right { display: flex; align-items: center; gap: 30px; }
@@ -71,14 +71,16 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ro
   .header-top-content { flex-direction: row; justify-content: space-between; align-items: flex-start; gap: 12px; padding: 0 16px; }
   .header-left { flex: 0 0 auto; }
   .lab-info-wrapper { align-items: flex-start; }
-  .lab-name { font-size: 1.3em; margin: 0 0 6px 0; text-align: left; }
+  .lab-name { font-size: 1.26em; margin: 0 0 6px 0; text-align: left; line-height: 1.2; }
+  .lab-name-sub { margin-top: 3px; }
+  .lab-affiliation { margin-left: 10px; }
   .affiliation-logo { max-height: 32px; }
-  .header-right { flex: 0 0 auto; display: flex; align-items: center; gap: 6px; flex-wrap: nowrap; margin-right: 8px; }
-  .language-switcher { font-size: 0.7em; gap: 4px; flex-shrink: 0; white-space: nowrap; transform: translateX(-10px); }
+  .header-right { flex: 0 0 auto; display: flex; align-items: center; gap: 6px; flex-wrap: nowrap; margin-right: 2px; position: relative; left: -14px; }
+  .language-switcher { font-size: 0.68em; gap: 2px; flex-shrink: 0; white-space: nowrap; transform: translateX(-8px); }
   .lang-item { padding: 3px 6px; font-size: 0.85em; }
   .lang-separator { font-size: 0.85em; }
-  .search-box { padding: 4px 6px; flex-shrink: 1; min-width: 70px; display: flex; align-items: center; }
-  .search-box input { flex: 1; min-width: 0; font-size: 0.7em; padding: 0 4px; }
+  .search-box { padding: 4px 5px; flex-shrink: 1; min-width: 58px; max-width: 90px; display: flex; align-items: center; }
+  .search-box input { flex: 1; min-width: 0; font-size: 0.66em; padding: 0 2px; width: 56px; }
   .search-btn { font-size: 0.85em; padding: 0; flex-shrink: 0; }
   .header-nav { position: relative; display: flex; justify-content: flex-end; align-items: center; padding: 12px 20px; min-height: 60px; z-index: 1000; }
   .mobile-menu-toggle { display: flex; position: relative; z-index: 1001; }
@@ -117,14 +119,15 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ro
   }
 }
 @media (max-width: 480px) {
-  .header-top-content { padding: 0 12px; gap: 8px; }
-  .lab-name { font-size: 1.1em; margin: 0 0 4px 0; }
+  .header-top-content { padding: 0 12px; gap: 6px; }
+  .lab-name { font-size: 1.06em; margin: 0 0 4px 0; line-height: 1.2; }
+  .lab-name-sub { font-size: 0.7em; }
   .affiliation-logo { max-height: 28px; }
-  .header-right { gap: 4px; margin-right: 6px; }
-  .language-switcher { font-size: 0.65em; gap: 3px; transform: translateX(-12px); }
-  .lang-item { padding: 2px 5px; font-size: 0.8em; }
-  .search-box { padding: 3px 5px; min-width: 60px; }
-  .search-box input { font-size: 0.65em; padding: 0 2px; }
+  .header-right { gap: 3px; margin-right: 0; left: -18px; }
+  .language-switcher { font-size: 0.62em; gap: 2px; transform: translateX(-10px); }
+  .lang-item { padding: 2px 4px; font-size: 0.78em; }
+  .search-box { padding: 3px 4px; min-width: 52px; max-width: 78px; }
+  .search-box input { font-size: 0.6em; padding: 0 1px; width: 42px; }
   .search-btn { font-size: 0.8em; }
 }
 .site-footer { border-top: 1px solid var(--border); padding: 16px 0; color: var(--muted); text-align: center; }
