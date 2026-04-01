@@ -1,0 +1,41 @@
+sections:
+  - id: postdocs
+    title: Postdocs
+    weight: 1
+    intro: Current postdoctoral members are listed below.
+    members:
+      - name: Shijia Xing
+        bio: >-
+          Dr. Xing received her Ph.D. in Biophysics from Peking University. During her doctoral training, she mainly focused on super-resolution imaging, with an emphasis on uncovering molecular mechanisms underlying disease progression and neural activity regulation during learning and memory in zebrafish. Her current research focuses on developing novel controllable cell-therapy tools and exploring their clinical applications in the treatment of cancer, genetic disorders, metabolic diseases, and other conditions.
+        photo: ""
+      - name: Yafei Tian
+        bio: >-
+          Dr. Tian obtained her Ph.D. from Jilin University, where she focused on targeted delivery of nucleic-acid molecules through nano-delivery systems to investigate therapeutic effects and molecular mechanisms in liver fibrosis. She is currently developing a synthetic gene circuit for autonomous control of CAR-T cytokine release syndrome, aiming to reduce acute CAR-T toxicity without compromising anti-tumor efficacy.
+        photo: ""
+  - id: staff
+    title: Staff
+    weight: 2
+    intro: Current staff members are listed below.
+    members:
+      - name: Lingyuan Zhu
+        bio: >-
+          Lingyuan Zhu is currently a research assistant in Huang Lab. She received her master's degree from China Pharmaceutical University, where she focused on molecular mechanisms of tumor-related genes. She combines practical strengths in both fundamental research and industrial applications, with more than two years of technical support experience in biotech companies, and is skilled at translating theory into practical experimental solutions.
+        photo: "/images/team/zhu-lingyuan.png"
+  - id: graduate-students
+    title: Graduate Students
+    weight: 3
+    intro: ""
+    placeholder: Graduate student information will be updated soon.
+    members: []
+  - id: other-members
+    title: Other Members
+    weight: 4
+    intro: ""
+    placeholder: Other member information will be updated soon.
+    members: []
+  - id: alumni
+    title: Alumni
+    weight: 5
+    intro: ""
+    placeholder: Alumni information will be updated soon.
+    members: []

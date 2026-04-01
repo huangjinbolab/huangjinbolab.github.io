@@ -1,8 +1,12 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 <div class="content team-intro">{{ .Content }}</div>
+{{ $membersData := site.Data.members }}
+{{ if eq .Site.Language.Lang "en" }}
+  {{ $membersData = site.Data.members_en }}
+{{ end }}
 <div class="team-section">
-  {{ range site.Data.members }}
+  {{ range $membersData }}
     <div class="team-member">
       <div class="member-photo">
       <img src="{{ .image }}" alt="{{ .name }}" />

@@ -3,8 +3,12 @@
 {{ with .Content }}
 <div class="content team-members-intro">{{ . }}</div>
 {{ end }}
+{{ $teamData := site.Data.team_members.sections }}
+{{ if eq .Site.Language.Lang "en" }}
+  {{ $teamData = site.Data.team_members_en.sections }}
+{{ end }}
 <div class="team-members-page">
-  {{ range sort site.Data.team_members.sections "weight" }}
+  {{ range sort $teamData "weight" }}
     <section class="team-members-section" id="{{ .id }}">
       <h2 class="team-members-section-title">{{ .title }}</h2>
       {{ with .intro }}

@@ -1,7 +1,7 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 <div class="pubs-actions">
-  <span class="scholar-tip">完整论文引用情况请查看谷歌学术</span>
+  <span class="scholar-tip">{{ if eq .Site.Language.Lang "en" }}For complete citation metrics, please visit Google Scholar{{ else }}完整论文引用情况请查看谷歌学术{{ end }}</span>
   <a href="https://scholar.google.com/citations?user=stySnLkAAAAJ&hl=zh-CN" target="_blank" rel="noopener" class="scholar-btn">Google Scholar</a>
 </div>
 <div class="content">{{ .Content }}</div>

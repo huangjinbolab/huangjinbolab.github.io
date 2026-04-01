@@ -11,13 +11,19 @@
         </div>
       </div>
       <div class="header-right">
+        {{ $zhURL := "/" }}
+        {{ $enURL := "/en/" }}
+        {{ range .AllTranslations }}
+          {{ if eq .Language.Lang "zh-cn" }}{{ $zhURL = .RelPermalink }}{{ end }}
+          {{ if eq .Language.Lang "en" }}{{ $enURL = .RelPermalink }}{{ end }}
+        {{ end }}
         <div class="language-switcher">
-          <span class="lang-item active" data-lang="zh-CN">中文</span>
+          <a class="lang-item {{ if eq .Site.Language.Lang "zh-cn" }}active{{ end }}" href="{{ $zhURL }}">中文</a>
           <span class="lang-separator">|</span>
-          <span class="lang-item" data-lang="en">English</span>
+          <a class="lang-item {{ if eq .Site.Language.Lang "en" }}active{{ end }}" href="{{ $enURL }}">English</a>
         </div>
         <div class="search-box">
-          <input type="text" placeholder="关键词..." />
+          <input type="text" placeholder="{{ if eq .Site.Language.Lang "en" }}Keywords...{{ else }}关键词...{{ end }}" />
           <button class="search-btn">🔍</button>
         </div>
       </div>
@@ -56,44 +62,10 @@
 </header>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    const langItems = document.querySelectorAll('.lang-item[data-lang]');
     const menuToggle = document.querySelector('.mobile-menu-toggle');
     const menuClose = document.querySelector('.mobile-menu-close');
     const mainNav = document.querySelector('.main-nav');
     const body = document.body;
-
-    function setGoogleTranslateCookie(langCode) {
-      const googtrans = '/zh-CN/' + langCode;
-      const oneYear = 365 * 24 * 60 * 60;
-      document.cookie = 'googtrans=' + googtrans + ';path=/;max-age=' + oneYear;
-      document.cookie = 'googtrans=' + googtrans + ';path=/;domain=' + window.location.hostname + ';max-age=' + oneYear;
-      localStorage.setItem('site_lang', langCode);
-    }
-
-    function updateLangUI(langCode) {
-      langItems.forEach(function(item) {
-        item.classList.toggle('active', item.dataset.lang === langCode);
-      });
-    }
-
-    function detectCurrentLang() {
-      const savedLang = localStorage.getItem('site_lang');
-      if (savedLang === 'en' || savedLang === 'zh-CN') return savedLang;
-      return 'zh-CN';
-    }
-
-    const currentLang = detectCurrentLang();
-    updateLangUI(currentLang);
-
-    langItems.forEach(function(item) {
-      item.addEventListener('click', function() {
-        const targetLang = item.dataset.lang;
-        if (!targetLang || targetLang === detectCurrentLang()) return;
-        setGoogleTranslateCookie(targetLang);
-        updateLangUI(targetLang);
-        window.location.reload();
-      });
-    });
     
     if (menuToggle && mainNav) {
       function openMenu() {
