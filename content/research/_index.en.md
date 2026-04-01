@@ -131,4 +131,3 @@ This platform provides another safe and reliable option for gene therapy in pers
 
 **Article:** [https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202309411](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202309411)
 
-{{< research-carousel >}}
