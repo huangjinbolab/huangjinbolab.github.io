@@ -15,8 +15,8 @@
           {{ range .members }}
             <article class="team-member-card">
               <div class="team-member-photo-placeholder">
-                {{ with .photo }}
-                  <img src="{{ . }}" alt="{{ $.name }}" />
+                {{ if .photo }}
+                  <img src="{{ .photo }}" alt="{{ .name }}" />
                 {{ end }}
               </div>
               <div class="team-member-card-name">{{ .name }}</div>

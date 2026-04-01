@@ -20,7 +20,7 @@ sections:
       - name: 朱玲媛
         bio: >-
           朱玲媛目前是黄金波课题组科研助理。她硕士毕业于中国药科大学，在校期间主攻肿瘤相关基因的作用机制研究。她兼具基础科研与产业应用的跨界实操能力，拥有两年以上生物技术公司技术支持从业经验，擅长将专业理论转化为落地可行的实验解决方案。
-        photo: ""
+        photo: "/images/team/zhu-lingyuan.png"
   - id: graduate-students
     title: 研究生
     weight: 3
