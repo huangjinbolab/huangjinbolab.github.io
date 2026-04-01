@@ -4,7 +4,8 @@
     <div class="header-top-content">
       <div class="header-left">
         <div class="lab-info-wrapper">
-          <h1 class="lab-name">{{ site.Params.lab_name }}</h1>
+          {{ $labName := replace site.Params.lab_name " @ HIM, CAS" "<br><span class='lab-name-sub'>@ HIM, CAS</span>" }}
+          <h1 class="lab-name">{{ $labName | safeHTML }}</h1>
           <div class="lab-affiliation">
             <img src="/images/logo.png" alt="{{ site.Params.address }}" class="affiliation-logo" />
           </div>

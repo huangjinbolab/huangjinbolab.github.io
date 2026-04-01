@@ -16,6 +16,7 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ro
 .header-left { flex: 1; display: flex; align-items: flex-start; }
 .lab-info-wrapper { display: flex; flex-direction: column; align-items: center; }
 .lab-name { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "SimHei", sans-serif; font-size: 2.0em; font-weight: 700; color: #ffffff; margin: 0 0 10px 0; letter-spacing: 0.03em; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6), 0 0 12px rgba(0, 0, 0, 0.4); text-align: center; }
+.lab-name-sub { font-size: 0.72em; font-weight: 600; letter-spacing: 0.02em; display: inline-block; margin-top: 2px; }
 .lab-affiliation { margin-top: 0; }
 .affiliation-logo { max-height: 50px; width: auto; height: auto; filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5)); }
 .header-right { display: flex; align-items: center; gap: 30px; }
@@ -72,11 +73,11 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ro
   .lab-info-wrapper { align-items: flex-start; }
   .lab-name { font-size: 1.3em; margin: 0 0 6px 0; text-align: left; }
   .affiliation-logo { max-height: 32px; }
-  .header-right { flex: 0 0 auto; display: flex; align-items: center; gap: 6px; flex-wrap: nowrap; }
-  .language-switcher { font-size: 0.7em; gap: 4px; flex-shrink: 0; white-space: nowrap; }
+  .header-right { flex: 0 0 auto; display: flex; align-items: center; gap: 2px; flex-wrap: nowrap; }
+  .language-switcher { font-size: 0.7em; gap: 4px; flex-shrink: 0; white-space: nowrap; margin-right: 8px; }
   .lang-item { padding: 3px 6px; font-size: 0.85em; }
   .lang-separator { font-size: 0.85em; }
-  .search-box { padding: 4px 6px; flex-shrink: 1; min-width: 70px; display: flex; align-items: center; }
+  .search-box { padding: 4px 5px; flex-shrink: 1; min-width: 58px; display: flex; align-items: center; }
   .search-box input { flex: 1; min-width: 0; font-size: 0.7em; padding: 0 4px; }
   .search-btn { font-size: 0.85em; padding: 0; flex-shrink: 0; }
   .header-nav { position: relative; display: flex; justify-content: flex-end; align-items: center; padding: 12px 20px; min-height: 60px; z-index: 1000; }
@@ -119,11 +120,11 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ro
   .header-top-content { padding: 0 12px; gap: 8px; }
   .lab-name { font-size: 1.1em; margin: 0 0 4px 0; }
   .affiliation-logo { max-height: 28px; }
-  .header-right { gap: 4px; }
-  .language-switcher { font-size: 0.65em; gap: 3px; }
+  .header-right { gap: 2px; }
+  .language-switcher { font-size: 0.65em; gap: 3px; margin-right: 8px; }
   .lang-item { padding: 2px 5px; font-size: 0.8em; }
-  .search-box { padding: 3px 5px; min-width: 60px; }
-  .search-box input { font-size: 0.65em; padding: 0 2px; }
+  .search-box { padding: 3px 4px; min-width: auto; }
+  .search-box input { display: none; }
   .search-btn { font-size: 0.8em; }
 }
 .site-footer { border-top: 1px solid var(--border); padding: 16px 0; color: var(--muted); text-align: center; }
