@@ -287,3 +287,10 @@ h1, h2, h3 { margin: 0 0 12px; }
 .carousel .dot { width: 8px; height: 8px; background: rgba(255,255,255,0.7); border-radius: 50%; }
 .carousel .dot.active { background: var(--primary); }
 .tagline { color: var(--muted); margin-bottom: 16px; }
+/* Hide Google Translate default UI; keep custom switcher */
+.goog-te-banner-frame.skiptranslate { display: none !important; }
+body { top: 0 !important; }
+#google_translate_element,
+.goog-te-gadget {
+  display: none !important;
+}
