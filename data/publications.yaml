@@ -1,3 +1,10 @@
+- year: 2026
+  items:
+    - title: "Wearable Thermoelectric Generators for In Vivo Modulation of Insulin Release"
+      authors: "Maity, D., Huang, J., and Fussenegger, M.*"
+      venue: "Advanced Energy Materials, 2025."
+      link: "https://doi.org/10.1002/aenm.202505245"
+
 - year: 2025
   items:
     - title: "Programming mammalian gene expression via physical cues"
@@ -7,7 +14,7 @@
     - title: "Aspirin-responsive gene switch regulating therapeutic protein expression"
       authors: "Huang, J., Teixeira, A.P., Gao, T., Xue, S., Xie, M. and Fussenegger, M.*"
       venue: "Nature Communications, 2025, 16(1):2028."
-      link: "https://doi.org/10.1038/s41467-025-02028-0"
+      link: "https://www.nature.com/articles/s41467-025-57275-x"
     - title: "A mediator-free sonogenetic switch for therapeutic protein expression in mammalian cells"
       authors: "Huang, J., Xue, S., Teixeira, A.P. and Fussenegger, M.*"
       venue: "Nucleic Acids Research, 2025, 53(6):gkaf191."
@@ -16,10 +23,6 @@
       authors: "Lin, Z., Ray, P.G., Huang, J., Buchmann, P., Fussenegger, M.*"
       venue: "Nature Nanotechnology, 2025."
       link: "https://doi.org/10.1038/s41565-025-01929-w"
-    - title: "Wearable Thermoelectric Generators for In Vivo Modulation of Insulin Release"
-      authors: "Maity, D., Huang, J., and Fussenegger, M.*"
-      venue: "Advanced Energy Materials, 2025."
-      link: "https://doi.org/10.1002/aenm.202505245"
 
 - year: 2024
   items:
