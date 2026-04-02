@@ -17,7 +17,8 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ro
 .lab-info-wrapper { display: flex; flex-direction: column; align-items: center; }
 .lab-name { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "SimHei", sans-serif; font-size: 2.0em; font-weight: 700; color: #ffffff; margin: 0 0 10px 0; letter-spacing: 0.03em; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6), 0 0 12px rgba(0, 0, 0, 0.4); text-align: center; }
 .lab-name-sub { font-size: 0.72em; font-weight: 600; letter-spacing: 0.02em; display: block; margin-top: 2px; text-align: left; }
-.lab-affiliation { margin-top: 0; }
+/* 中科院杭州医学所 logo：相对原位置略下移、略左移（中英文共用，约 3 / 1 个空格宽） */
+.lab-affiliation { margin-top: 24px; margin-left: -8px; }
 .affiliation-logo { max-height: 50px; width: auto; height: auto; filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5)); }
 .header-right { display: flex; align-items: center; gap: 30px; }
 .language-switcher { display: flex; align-items: center; gap: 12px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "SimHei", sans-serif; font-size: 0.95em; color: #ffffff; font-weight: 600; }
@@ -73,7 +74,7 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ro
   .lab-info-wrapper { align-items: flex-start; }
   .lab-name { font-size: 1.26em; margin: 0 0 6px 0; text-align: left; line-height: 1.2; }
   .lab-name-sub { margin-top: 3px; }
-  .lab-affiliation { margin-left: 10px; }
+  .lab-affiliation { margin-left: 2px; }
   .affiliation-logo { max-height: 32px; }
   .header-right { flex: 0 0 auto; display: flex; align-items: center; gap: 6px; flex-wrap: nowrap; margin-right: 2px; position: relative; left: -14px; }
   .language-switcher { font-size: 0.68em; gap: 2px; flex-shrink: 0; white-space: nowrap; transform: translateX(-8px); }
