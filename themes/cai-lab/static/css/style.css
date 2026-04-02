@@ -130,14 +130,14 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ro
   .search-box input { font-size: 0.6em; padding: 0 1px; width: 42px; }
   .search-btn { font-size: 0.8em; }
 }
-/* 中文版移动端：语言切换与搜索整体略向右，避免与标题 “Huang Lab)” 重叠 */
+/* 中文版移动端：顶栏整体略右移避免与标题重叠；语言切换略左移约一字宽，与关键词搜索拉开间距 */
 @media (max-width: 768px) {
   html[lang="zh-cn"] .header-right {
     left: 0;
     margin-left: 16px;
   }
   html[lang="zh-cn"] .language-switcher {
-    transform: translateX(8px);
+    transform: translateX(0);
   }
 }
 @media (max-width: 480px) {
@@ -145,7 +145,7 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ro
     margin-left: 14px;
   }
   html[lang="zh-cn"] .language-switcher {
-    transform: translateX(10px);
+    transform: translateX(2px);
   }
 }
 .site-footer { border-top: 1px solid var(--border); padding: 16px 0; color: var(--muted); text-align: center; }
