@@ -12,6 +12,10 @@ sections:
         bio: >-
           Dr. Tian obtained her Ph.D. from Jilin University, where she focused on targeted delivery of nucleic-acid molecules through nano-delivery systems to investigate therapeutic effects and molecular mechanisms in liver fibrosis. She is currently developing a synthetic gene circuit for autonomous control of CAR-T cytokine release syndrome, aiming to reduce acute CAR-T toxicity without compromising anti-tumor efficacy.
         photo: "/images/team/tian-yafei.png"
+      - name: Huang Ling
+        bio: >-
+          Dr. Huang completed his joint Master's and Ph.D. program in Pathogenic Biology at the Wuhan Institute of Virology, Chinese Academy of Sciences. During his doctoral studies, he focused on rational designing and engineering of probiotic vector, aiming to expand their applications in the treatment of metabolic diseases and the development of novel inhaled vaccines. After joining this lab, his research will focus on the development and optimization of smart responsive gene delivery systems, with functional validation and therapeutic studies primarily conducted in models of metabolic diseases and cancer.
+        photo: "/images/team/huang-ling.png"
   - id: staff
     title: Research Assistant / Technician
     weight: 2
