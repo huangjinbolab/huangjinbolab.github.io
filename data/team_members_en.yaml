@@ -25,6 +25,10 @@ sections:
         bio: >-
           Research Assistant. Zhu Lingyuan received her master’s degree from China Pharmaceutical University, where she focused on studying the mechanisms of tumor-related genes. She possesses cross-disciplinary practical expertise spanning both fundamental research and industrial applications, with over two years of experience in technical support at a biotechnology company. She is skilled at translating theoretical knowledge into practical and feasible experimental solutions.
         photo: "/images/team/zhu-lingyuan.png"
+      - name: Chenchen Jin
+        bio: >-
+          Jin Chenchen holds a master's degree in Cell Biology from Sichuan Agricultural University. His research primarily focuses on obesity and health, with a particular emphasis on investigating the regulatory mechanisms underlying the antagonistic deposition between muscle and adipose tissues in mammals. He is currently a research assistant at Huang Lab, where he specializes in molecular and cell biology techniques.
+        photo: "/images/team/jin-chenchen.png"
   - id: graduate-students
     title: Graduate Students
     weight: 3
