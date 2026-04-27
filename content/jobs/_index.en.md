@@ -46,7 +46,7 @@ On top of the above package, annual salary may increase to RMB 400,000-500,000 d
 
 ---
 
-### 2. Research Assistants (1-2 Openings)
+### 2. Research Assistants and Ph.D. Candidates (Multiple Openings)
 
 #### Relevant Fields
 
@@ -55,8 +55,8 @@ Including but not limited to biology, medicine, biomedical engineering, bioinfor
 #### Requirements
 
 1. Bachelor's or master's degree (or fresh graduates);
-2. Assist PI in building and maintaining lab management systems, and handle non-experimental operations (e.g., purchasing, reimbursements, meeting organization) to support efficient lab function;
-3. Participate in selected basic research tasks, develop experimental skills, and build scientific thinking.
+2. Assist the PI in establishing laboratory management standards and undertake experimental research tasks within the group to ensure efficient project operation;
+3. Outstanding candidates may also independently undertake research tasks.
 
 #### Compensation
 
