@@ -2,7 +2,13 @@
 title: "Home"
 ---
 
-Welcome to Huang Lab. Our research focuses on mammalian synthetic biology.
+Welcome to Huang Lab!
+
+<div class="hero">
+  <img src="/images/home-group-photo.png" alt="Huang Lab Group Photo" />
+</div>
+
+Our research focuses on mammalian synthetic biology.
 
 Our key directions:
 
