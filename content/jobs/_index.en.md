@@ -2,75 +2,87 @@
 title: "Open Positions"
 ---
 
-## Huang Lab is Recruiting Postdoctoral Fellows and Research Assistants (Long-term Open)
+## Postdoctoral Researcher and Fully Funded PhD Candidate Positions (Long-term open)
 
-Prof. Jinbo Huang joined the Hangzhou Institute of Medicine, Chinese Academy of Sciences, in December 2025, and established the "Intelligent Cell Engineering and Precision Medicine" Laboratory.
+- **Lab:** Huang Lab (Intelligent Cell Engineering & Synthetic Biology)
+- **Affiliation:** Hangzhou Institute of Medicine (HIM), Chinese Academy of Sciences (CAS), University of Chinese Academy of Sciences
+- **Google Scholar:** [https://scholar.google.com/citations?user=stySnLkAAAAJ&hl=en](https://scholar.google.com/citations?user=stySnLkAAAAJ&hl=en)
+- **Contact Email:** huangjinbo@him.cas.cn | huangjinbolab@outlook.com
 
-Our core mission is to integrate frontier approaches from synthetic biology, biomedical engineering, artificial intelligence, materials science, and electronic engineering to develop next-generation gene and cell therapy tools. We aim to design controllable artificial signaling pathways and intelligent sensing systems for precise cell programming, accelerated evolution, and functional remodeling. Our long-term vision is to empower cells with sensing, decision-making, and execution capabilities, thereby transforming prevention, diagnosis, and treatment of cancer, immune diseases, genetic disorders, and metabolic diseases, and advancing next-generation cell therapies and intelligent biosystems. Current research areas include, but are not limited to:
+## Principal Investigator Introduction
 
-1. Development and directed evolution of receptors responsive to biosafe drugs;
-2. Development of precisely controllable gene delivery systems;
-3. Development and application of intelligent cell delivery systems;
-4. Development and application of in situ gene therapy technologies;
-5. Development and application of electroceutical (electrogenetic) tools and wearable devices integrated with gene therapy.
+Prof. Dr. Jinbo Huang is a principal investigator supported by the National Overseas Young Talent Program of China (2025). Under the supervision of Prof. Martin Fussenegger, he received his doctoral and postdoctoral training at ETH Zurich (2019-2025), where he pioneered the first DC-controlled electrogenetic regulatory system for mammalian gene expression, and developed a suite of innovative gene switches responsive to ultrasound, small molecules, ultra-short peptides, and the clinically safe drug aspirin. He has published more than 8 first-author papers in top-tier journals including Nature Metabolism, Nature Communications, Advanced Science (2x), Trends in Biotechnology, and Nucleic Acids Research, with collaborative publications in Nature, Nature Nanotechnology, Advanced Energy Materials, and others. Since December 2025, Prof. Huang has joined Hangzhou Institute of Medicine, CAS to lead the Laboratory for Intelligent Cell Engineering & Precision Medicine.
 
-We are also open to innovative directions brought by you. Breakthrough ideas often emerge at the intersection of disciplines. Applicants with backgrounds in engineering, computer science, physics, chemistry, materials, and related areas are welcome, especially those eager to apply their strengths to life-science frontiers. Even if your biology background is currently limited, enthusiasm and learning ability are highly valued. We foster a culture of freedom, innovation, collaboration, and mutual support, and we value both independent thinking and team contribution.
+## Laboratory Overview & Research Focus
 
----
+Huang Lab specializes in mammalian synthetic biology, intelligent cell engineering, and translational precision medicine. We integrate synthetic biology, biomedical engineering, AI, materials science, and electronic engineering to build next-generation gene- and cell-therapy tools.
 
-## Positions and Benefits
+Our core research aims to:
 
-### 1. Postdoctoral Fellows (Multiple Openings)
+- Design and construct controllable artificial signaling pathways and intelligent cellular sensory systems
+- Enable precise cell programming, accelerated directed evolution, and functional cell remodeling
+- Equip cells with perception, decision-making, and execution capabilities for disease diagnosis and therapy
 
-#### Relevant Fields
+We focus on breakthrough innovations for cancer, autoimmune diseases, genetic disorders, and metabolic diseases, to advance next-generation cell therapies and intelligent biological systems.
 
-Including but not limited to biology, biomedical engineering, bioinformatics, immunology, and interdisciplinary fields related to AI, biophysics, chemistry, materials science, and electronic engineering.
+## Key Research Directions
 
-#### Requirements
+1. Development of precisely regulated gene delivery & controlled expression systems
+2. Intelligent cell delivery platforms and their translational applications
+3. Engineering and directed evolution of biosafe drug-responsive receptors
+4. Innovation and clinical translation of in situ gene therapy
+5. Electrogenetic tools and wearable device-gene therapy integrated systems
+6. Interdisciplinary innovative directions proposed by (post)doctoral researchers
 
-1. Typically under 35 years old; recent Ph.D. graduates or candidates who obtained a Ph.D. within the past 3 years; able to conduct full-time postdoctoral research;
-2. Curiosity about unknown problems, passion for research, and proactive work attitude (strong motivation is valued even if prior background is not perfect);
-3. Ability (after training) to independently conduct and complete research projects, with team spirit.
+## Job & Program Descriptions
 
-#### Compensation
+### 1. Postdoctoral Researcher (Multiple++ Vacancies)
 
-1. Annual salary of RMB 300,000+ plus employer-paid social insurance and housing fund, with additional research performance and achievement bonuses;
-2. Group-provided start-up funds and required office/lab resources, including necessary office equipment;
-3. Benefits including meal subsidy, union benefits, hospital VIP physical examinations, household registration support, and support for children's schooling;
-4. Eligible for Hangzhou postdoctoral talent policies, including settlement subsidy, housing subsidy, and matched project funding;
-5. Outstanding postdocs may be considered for permanent institutional positions after completion, with additional local talent benefits.
+1. Independently design, implement, and manage high-quality research projects aligned with lab priorities, including synthetic biology, electrogenetics, gene switches, intelligent cell engineering, or gene/cell therapy.
+2. Perform experiments, collect and analyze data, ensure reproducibility, and summarize scientific findings.
+3. Prepare and publish high-impact peer-reviewed papers, conference abstracts, and research reports; participate in domestic and international academic exchanges.
+4. Collaborate with interdisciplinary team members (biology, engineering, AI, materials, electronics, biophysics, chemistry) to drive innovation.
+5. Assist in mentoring graduate students and managing laboratory platforms and safety.
+6. Explore new research directions and help apply for research grants.
+7. Comply with institutional and laboratory regulations and participate in team academic activities.
 
-#### National-level Postdoctoral Talent Program Awardees
+### Benefits for Postdocs
 
-On top of the above package, annual salary may increase to RMB 400,000-500,000 during appointment, with additional RMB 500,000 research support and inclusion in CAS special research-assistant pathways. Outstanding candidates may be directly retained after completion and recommended for national young-talent programs.
+1. Highly competitive salary: 300,000 RMB+/year; national-level fellows: 400,000-500,000 RMB/year
+2. Full social insurance and housing fund, performance bonuses, and research achievement awards
+3. Full research startup funding, independent lab space, and full access to institutional platforms
+4. Meal subsidies, union benefits, VIP annual physical examination
+5. Support for household registration, children's education, and childcare assistance
+6. Hangzhou postdoctoral policies:
+   - Living allowance from local government: 100,000 RMB
+   - Monthly rental subsidy: 2,500 RMB
+   - 1:1 matching funding for national/provincial postdoctoral projects
+7. Outstanding postdocs eligible for tenure-track faculty positions
+8. Talent subsidies: up to 400,000 RMB retention allowance and 1,000,000 RMB housing subsidy (Hangzhou Class D talent)
+9. National-level postdoctoral fellows: additional 500,000 RMB research funding, CAS special research assistant status, priority for national young talent programs
 
----
+### 2. Fully Funded PhD Candidate (Multiple++ Vacancies)
 
-### 2. Research Assistants and Ph.D. Candidates (Multiple Openings)
+1. Pursue a PhD degree in related disciplines (Biology, Biomedical Engineering, Synthetic Biology, or Interdisciplinary Sciences) under the supervision of Prof. Jinbo Huang.
+2. Engage in cutting-edge research projects aligned with the lab's focus (e.g., electrogenetic tools, gene switches, intelligent cell engineering, or translational gene/cell therapy).
+3. Conduct experimental research, collect and analyze data, and participate in the writing of academic papers and research reports.
+4. Attend academic seminars, group meetings, and relevant training programs to enhance research and professional skills.
+5. Collaborate with postdoctoral researchers and other team members on interdisciplinary research projects.
+6. Fulfill the academic requirements of Hangzhou Institute of Medicine, CAS for PhD degree completion (e.g., publication requirements).
 
-#### Relevant Fields
+### Benefits for Fully Funded PhD Candidates
 
-Including but not limited to biology, medicine, biomedical engineering, bioinformatics, biochemistry, or related interdisciplinary fields.
+1. Full funding coverage: Tuition waiver + monthly stipend (6,000-9,500 RMB/month, adjustable based on academic performance and research progress)
+2. Annual research fund to support experimental expenses, academic conference participation, and professional training
+3. Opportunities to co-publish high-impact academic papers with the research team and Prof. Huang
+4. Access to all laboratory platforms, equipment, and interdisciplinary collaboration resources
+5. Meal subsidies, annual physical examination, and participation in lab team activities
+6. Guidance from Prof. Huang (with international research experience) and postdoctoral researchers, supporting academic and career development
+7. Opportunities to participate in national research projects and gain hands-on research experience in cutting-edge synthetic biology and precision medicine fields
 
-#### Requirements
+## How to Apply
 
-1. Bachelor's or master's degree (or fresh graduates);
-2. Assist the PI in establishing laboratory management standards and undertake experimental research tasks within the group to ensure efficient project operation;
-3. Outstanding candidates may also independently undertake research tasks.
+Send your CV + 2-3 references to:
 
-#### Compensation
-
-1. Annual salary of RMB 80,000-120,000 plus social insurance/housing fund and research performance bonuses;
-2. Benefits including meal subsidy, union materials/welfare packages, and medical examination packages;
-3. For candidates interested in further training, support is provided for participation in and independent conduct of research projects;
-4. Strong candidates with research potential will be fully supported for Ph.D. applications.
-
----
-
-## Application
-
-**Postdoctoral applicants**: Please submit your latest CV and two recommendation letters (one should be from your doctoral advisor or direct mentor; may be supplemented after interview). Email subject: "Postdoc + Name + Research Direction".
-
-**Research assistant applicants**: Please submit your latest CV. Email subject: "Research Assistant + Name".
-
-Please send applications to: **huangjinbo@him.cas.cn**. All application materials will be kept strictly confidential, and we will respond as soon as possible.
+- huangjinbo@him.cas.cn
+- huangjinbolab@outlook.com
