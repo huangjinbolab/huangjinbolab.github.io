@@ -7,8 +7,9 @@
         <span>{{ if eq site.Language.Lang "en" }}Contact{{ else }}联系{{ end }}: <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></span>
       </div>
       <div class="footer-row-address">
-        <span class="footer-address-label">{{ if eq site.Language.Lang "en" }}Address{{ else }}地址{{ end }}</span>
-        <div class="footer-address-body">{{ site.Params.address }}</div>
+        <div class="footer-address-wrap">
+          <span class="footer-address-label">{{ if eq site.Language.Lang "en" }}Address: {{ else }}地址：{{ end }}</span><span class="footer-address-body">{{ site.Params.address }}</span>
+        </div>
       </div>
     </div>
   </div>
