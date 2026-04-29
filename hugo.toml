@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir = false
       tagline = "合成生物学 · 智能细胞工程 · 精准医疗"
       email = "huangjinbolab@outlook.com"
       logo_alt = "中国科学院杭州医学研究所"
-      address = "浙江省杭州市钱塘区东方街 150 号 中国科学院杭州医学研究所，邮政编码：310018"
+      address = "浙江省杭州市钱塘区东方街 150 号，中国科学院杭州医学研究所，邮政编码：310018"
       footer_text = "© 2025 黄金波实验室"
     [[languages.zh-cn.menu.main]]
       name = "主页"
@@ -93,7 +93,7 @@ defaultContentLanguageInSubdir = false
       tagline = "Synthetic Biology · Intelligent Cell Engineering · Precision Medicine"
       email = "huangjinbolab@outlook.com"
       logo_alt = "Hangzhou Institute of Medicine, Chinese Academy of Sciences"
-      address = """Hangzhou Institute of Medicine, Chinese Academy of Sciences
+      address = """Hangzhou Institute of Medicine, Chinese Academy of Sciences,
 No. 150 Dongfang Street, Qiantang District
 Hangzhou, Zhejiang 310018
 P.R.China"""
