@@ -16,6 +16,10 @@ sections:
         bio: >-
           Dr. Huang completed his joint Master's and Ph.D. program in Pathogenic Biology at the Wuhan Institute of Virology, Chinese Academy of Sciences. During his doctoral studies, he focused on rational designing and engineering of probiotic vector, aiming to expand their applications in the treatment of metabolic diseases and the development of novel inhaled vaccines. After joining this lab, his research will focus on the development and optimization of smart responsive gene delivery systems, with functional validation and therapeutic studies primarily conducted in models of metabolic diseases and cancer.
         photo: "/images/team/huang-ling.png"
+      - name: Mengzhu Wang
+        bio: >-
+          Dr. Wang obtained her doctoral degree in Clinical Medicine from Chongqing University. During her PhD studies, she focused primarily on organ targeting technologies of nanomaterials, with an emphasis on pulmonary targeted nanoparticles and their underlying mechanisms. Her current research centers on in vivo investigations of nanoparticle mediated electromagnetically regulated gene expression in engineered cells, for therapeutic applications in disease models such as lung cancer and pulmonary fibrosis.
+        photo: "/images/team/wang-mengzhu.png"
   - id: staff
     title: Research Assistant / Technician
     weight: 2
