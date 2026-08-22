@@ -331,6 +331,8 @@ h1, h2, h3 { margin: 0 0 12px; }
 .pub-title { font-weight: 600; color: var(--fg); margin-bottom: 5.6px; line-height: 1.5; font-size: 1em; }
 .pub-authors { color: var(--muted); font-size: 0.95em; line-height: 1.6; }
 .pub-authors strong { color: var(--fg); font-weight: 700; }
+.pub-doi { color: var(--primary); text-decoration: none; font-weight: 500; margin-left: 6px; white-space: nowrap; }
+.pub-doi:hover { text-decoration: underline; }
 .pub-link { color: var(--primary); text-decoration: none; font-weight: 500; margin-left: 8px; font-size: 0.9em; }
 .pub-link:hover { text-decoration: underline; }
 .images img { max-width: 100%; border-radius: 8px; border: 1px solid var(--border); margin-right: 8px; margin-bottom: 8px; }

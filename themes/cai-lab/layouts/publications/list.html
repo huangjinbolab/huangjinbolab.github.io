@@ -60,7 +60,7 @@
             {{ $journalName := index $venueParts 0 }}
             <div class="pub-venue-name">{{ $journalName }}</div>
             <div class="pub-title">{{ $item.title }}{{ with $item.link }} <a href="{{ . }}" target="_blank" rel="noopener" class="pub-link">[PDF]</a>{{ end }}</div>
-            <div class="pub-authors">{{ replace (replace (replace $item.authors "Huang, J.#" "<strong>Huang, J.#</strong>") "Huang, J.*" "<strong>Huang, J.*</strong>") "Huang, J." "<strong>Huang, J.</strong>" | safeHTML }}</div>
+            <div class="pub-authors">{{ replace (replace (replace $item.authors "Huang, J.#" "<strong>Huang, J.#</strong>") "Huang, J.*" "<strong>Huang, J.*</strong>") "Huang, J." "<strong>Huang, J.</strong>" | safeHTML }}{{ with $item.doi }} <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener" class="pub-doi">DOI: {{ . }}</a>{{ end }}</div>
           </div>
         </li>
       {{ end }}
