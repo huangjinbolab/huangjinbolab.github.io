@@ -5,7 +5,7 @@ title: "Home"
 Welcome to Huang Lab!
 
 <div class="hero">
-  <img src="/images/home-group-photo.png" alt="Huang Lab Group Photo" />
+  <img src="/images/home-group-photo.jpg" alt="Huang Lab Group Photo" />
 </div>
 
 Our research focuses on mammalian synthetic biology.

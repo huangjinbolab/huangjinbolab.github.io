@@ -5,7 +5,7 @@ title: "主页"
 欢迎来到黄金波实验室！
 
 <div class="hero">
-  <img src="/images/home-group-photo.png" alt="Huang Lab Group Photo" />
+  <img src="/images/home-group-photo.jpg" alt="黄金波实验室合影" />
 </div>
 
 我们实验室聚焦于哺乳动物合成生物学研究。
